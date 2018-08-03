@@ -9,7 +9,7 @@ ENV SONAR_VERSION=7.1 \
     SONARQUBE_JDBC_URL=
 
 # Http port
-EXPOSE 9000
+EXPOSE 9000 9092
 
 RUN groupadd -r sonarqube && useradd -r -g sonarqube sonarqube
 
